@@ -1,5 +1,4 @@
 #include <iostream>
-#include <Square.h>
 
 using namespace std;
 
@@ -58,6 +57,4 @@ int main(){
     Manager m2("Ali","City",17826,98,"Water",10000);
     if(m1.get_salary()>m2.get_salary())cout<<m1.get_name()<<" has the highest salary"<<endl;
     if(m1.get_salary()<m2.get_salary())cout<<m2.get_name()<<" has the highest salary"<<endl;
-    square s1;
-    s1.set_length(600);
 }
